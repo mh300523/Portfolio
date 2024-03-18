@@ -17,6 +17,23 @@ body {
   --white-color: #ffffff;
   --border-raduis: 20px;
 }
+::-webkit-scrollbar {
+  width: 10px;
+  height: 0;
+}
+::-webkit-scrollbar-track {
+  background: var(--black-color); 
+  border-radius: 0px;
+}
+::-webkit-scrollbar-track-piece{
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background-color: var(--main-color);
+  border: 2px solid transparent;
+  background-clip: padding-box;
+  border-radius: 20px;
+}
 .page-title
 {
   font-size: 30px;
