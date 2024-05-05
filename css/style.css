@@ -133,6 +133,7 @@ body {
   overflow: hidden;
   -webkit-line-clamp: 1;
   text-overflow: ellipsis;
+  text-transform: capitalize;
 }
 .repo .repo_ink
 {
